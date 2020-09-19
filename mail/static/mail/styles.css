@@ -1,0 +1,29 @@
+.inbox {
+  width: 90%;
+  padding-top: 10px;
+  text-align: left;
+}
+
+.Read {
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.11);
+  border: 1px solid rgb(45, 160, 180);
+  border-radius: 3px;
+  margin: 2% auto;
+  transition: background 0.5s;
+}
+
+.Unread {
+  border: 2px solid rgb(99, 180, 45);
+  border-radius: 3px;
+  margin: 2% auto;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.11);
+  transition: background 0.5s;
+}
+
+.Read:hover {
+  background-color: rgba(45, 160, 180, 0.3);
+} 
+
+.Unread:hover {
+  background-color: rgba(99, 180, 45, 0.3);
+}
